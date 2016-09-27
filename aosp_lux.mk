@@ -14,6 +14,9 @@
 
 $(call inherit-product, device/motorola/lux/full_lux.mk)
 
+# Enhanced NFC
+$(call inherit-product-if-exists, vendor/aosp/config/nfc_enhanced.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lux
 PRODUCT_NAME := aosp_lux
