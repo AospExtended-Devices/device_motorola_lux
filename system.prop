@@ -5,5 +5,9 @@ persist.audio.fluence.mode=endfire
 persist.audio.fluence.voicecall=true
 ro.qc.sdk.audio.fluencetype=fluence
 
+# Device
+ro.product.model=Moto X Play
+persist.ims.volte=false
+
 # Display
 ro.sf.lcd_density=480
