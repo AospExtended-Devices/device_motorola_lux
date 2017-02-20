@@ -26,3 +26,6 @@ PRODUCT_RELEASE_NAME := lux
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto X Play"
+    
+# Build Magisk
+DEFAULT_ROOT_METHOD := magisk
