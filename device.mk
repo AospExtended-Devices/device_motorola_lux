@@ -68,3 +68,10 @@ PRODUCT_PACKAGES += \
 # Thermal
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/thermal-engine-lux.conf:system/etc/thermal-engine-lux.conf
+
+# Sensors
+PRODUCT_PACKAGES += \
+    akmd09912 \
+    stml0xx \
+    sensors.msm8916 \
+    sensorhub.msm8916
