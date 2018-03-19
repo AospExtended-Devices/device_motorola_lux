@@ -117,9 +117,6 @@ vendor/lib/libchromatix_s5k5e2_liveshot.so
 vendor/lib/libchromatix_s5k5e2_preview.so
 vendor/lib/libchromatix_s5k5e2_snapshot.so
 
-# NFC
-etc/firmware/BCM20795A2_001.003.025.0005.0048_Generic_I2C_NCD_Signed_configdata.ncd
-
 # Touchscreen
 etc/firmware/synaptics-lgd-s332u-15102102-1fb0fc-lux.tdat
 etc/firmware/synaptics-s3346b-15011402-1b5aff-lux.tdat
